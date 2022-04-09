@@ -13,7 +13,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.channel.id == 962328009203920896:
+    if message.channel.id == suggestion channel id:
         await message.add_reaction('👍')
         await message.add_reaction('👎')
 
